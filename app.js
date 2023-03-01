@@ -1,9 +1,10 @@
-function plus(a, b){
-    console.log(a+b);
-}
-function divide(a, b) {
-    console.log(a / b);
-}
+const player = {
+    name: "Gamja",
+    sayHello: function(otherPersonsName) {
+        console.log("hello! " + otherPersonsName + " nice to meet you!");
+    },
+};
 
-plus(2, 5);
-divide(14124, 1234);
+console.log(player.name);
+player.sayHello("Lynn");
+player.sayHello("Gamja");
